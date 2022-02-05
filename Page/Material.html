@@ -1,0 +1,467 @@
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.css"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script>
+  $( document ).ready(function() {
+	$('#headerVideoLink').magnificPopup({
+	type:'inline',
+	midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+	});
+});
+  $( document ).ready(function() {
+	$('#headerVideoLink2').magnificPopup({
+	type:'inline',
+	midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+	});
+});   
+</script>
+
+ 
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>#back-to-top{background:#fff;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;bottom:20px;-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.26);-moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.26);box-shadow:0 2px 5px 0 rgba(0,0,0,.26);color:#333;cursor:pointer;display:block;height:56px;opacity:1;outline:0;position:fixed;right:20px;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-transition:bottom .2s,opacity .2s;-o-transition:bottom .2s,opacity .2s;-moz-transition:bottom .2s,opacity .2s;transition:bottom .2s,opacity .2s;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:56px;z-index:1}#back-to-top svg{display:block;fill:currentColor;height:24px;margin:16px auto 0;width:24px}#back-to-top.hidden{bottom:-56px;opacity:0}</style>
+    
+	<meta content="width=device-width, initial-scale=0.8" name="viewport">
+	<meta content="" name="keywords">
+	<meta content="" name="description">
+
+	<!-- Favicons -->
+	<link href="../img/utlogo.jpg" rel="icon">
+	<link href="../img/utlogo.jpg" rel="apple-touch-icon">
+  <link href="../css/style.css" rel="stylesheet">	 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Machine Learning</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Course materials and notes for UT class Machine Learning.">
+  <link rel="canonical" href="https://mlut.github.io/">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../University of Tehran - DNN/main.css">
+
+  <!-- Google fonts -->
+  <link href="../University of Tehran - DNN/css" rel="stylesheet" type="text/css">
+	<!-- Favicons -->
+	<link href="../img/utlogo.svg" rel="icon">
+	<link href="../img/utlogo.svg" rel="apple-touch-icon">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap CSS File -->
+	<link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Libraries CSS Files -->
+	<link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../lib/animate/animate.min.css" rel="stylesheet">
+	<link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link href="../css/style.css" rel="stylesheet">	 
+  
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Syllabus | ML UT</title>
+
+	<!-- bootstrap -->
+	<!-- <link rel="stylesheet" href="../University of Tehran - DNN/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="../University of Tehran - DNN/bootstrap-theme.min.css">
+
+	<!-- Google fonts -->
+	<link href="../University of Tehran - DNN/css" rel="stylesheet" type="text/css">
+
+	<!-- Google Analytics -->
+	<script async="" src="../University of Tehran - DNN/analytics.js.download"></script><script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-46895817-2', 'auto');
+	ga('send', 'pageview');
+	</script>
+
+
+
+	<link rel="stylesheet" type="text/css" href="../University of Tehran - DNN/style.css">
+
+  <!-- Google tracking -->
+  <script async="" src="../University of Tehran - DNN/analytics.js.download"></script><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-46895817-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #FFFFF0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+
+    <body><div id="MathJax_Message" style="display: none;"></div>
+
+      <script src="./Notes_files/vanilla-back-to-top.min.js.download"></script>
+      <script>addBackToTop({
+        backgroundColor: '#fff',
+        innerHTML: 'Back to Top',
+        textColor: '#333'
+      })</script><div id="back-to-top" class="hidden">Back to Top</div>
+      <style>
+        #back-to-top {
+          border: 1px solid #ccc;
+          border-radius: 0;
+          font-family: sans-serif;
+          font-size: 14px;
+          width: 100px;
+          text-align: center;
+          line-height: 30px;
+          height: 30px;
+        }
+      </style>
+
+    <header class="site-header">
+
+  <a class="site-title" href="../index.html">University of Tehran - Analysis and design of DNNs</a>
+
+</header>
+
+
+
+
+<div class="sechighlight">
+<div class="container sec">
+	<div class="section">
+	  <h3>Schedule and Syllabus</h3>
+	</div>
+	</br>
+	<div class="col-lg-12 col-md-12" >
+	  The Spring 2022 iteration of the course will be taught virtually for the entire duration of the quarter.
+	 <br>                                          
+	  Unless otherwise specified the lectures are Saturday and Munday 10:30 AM to 12 AM. <br>
+	  Lectures and discussion sections will be both on Elearn.
+	  <br><br>
+	  This is the syllabus for the <b>Spring 2022</b> iteration of the course.
+	 </div>
+
+</p></div>
+</div>
+
+<div class="container sec " >
+	<table class="table">
+	  <tbody><tr class="gray">
+		<th>Event Type</th><th>Description</th><th>Course Materials</th><th>Videos</th>
+	  </tr>
+	  <tr>
+		<td>Topic 1</td>
+		<td>
+		  <b>Structure Analysis and learning mechanisms</b> <br>
+			Functionality of Layers, Modules and Blocks  <br>
+			Different architectures(charts) of NNs and DNNs <br>
+			Different Learning mechanisms in DNNs <br>
+
+		</td>
+		<td>
+		  <a href="">Introduction</a><br>
+		  
+		</td>
+		<td>
+		  <a href="#headerPopup"  id="headerVideoLink2"  target="_blank">Lecture 1</a> <br>
+		  <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+			<iframe class="embed-responsive-item" width="854" height="480" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  </div>	
+		  
+  
+	  </tr>
+	  <tr class="yellow">
+		<td>Homework #1 Due</td>
+		<td> Deadline : N/A  </td>
+		<td>
+		  <a href="">Homework #1</a><br> <br>
+
+		</td>
+		<td>
+		  Please sumbit <a href="https://elearn.ut.ac.ir/" target="_blank">here</a>
+		</td>
+	  </tr>
+	  <tr class="blue">
+		<td>Hands-On #1</td>
+		<td><b> Structure Analysis and learning mechanisms</b></td>
+		<td>
+		  <a href="">Code<br>
+		  <a href="">Dataset<br>
+
+		  
+		</td>
+		<td>
+		  <a href="#headerPopup"  id="headerVideoLink2"  target="_blank">Lecture</a> <br>
+		  <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+			<iframe class="embed-responsive-item" width="854" height="480" 
+			src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  </div>
+
+		</td>
+	  </tr>
+	  <tr class="yellow">
+		<td>Homework #2 Due</td>
+		<td> Deadline : N/A  </td>
+		<td>
+		  <a href="">Homework #2</a><br> <br>
+		  <a href="">Dataset</a><br> <br>
+		  <a href="">Images</a><br> <br>
+
+		</td>
+		<td>
+		  Please sumbit <a href="https://elearn.ut.ac.ir/" target="_blank">here</a>
+		</td>
+	  </tr>
+	  <tr>
+		<td>Topic 2</td>
+		<td>
+		  <b>Deep Metric Learning</b> <br>
+			An Introduction to Metric Learning <br>
+			Siamese Networks (Contrastive Loss) <br>
+			Triplet Networks (Triplet loss) <br>
+			Other Deep Metric Learning methods with other ranking losses <br>
+			Softmax loss, A-Softmax loss, <br>
+			Large Margin Cosine Loss (LMCL) <br>
+		</td>
+		<td>
+		</td>
+		<td>
+
+		</td>
+	  </tr>
+	  <tr>
+	  <tr class="yellow">
+		<td>Homework #3 Due</td>
+		<td> Deadline : N/A  </td>
+		<td>
+		</td>
+		<td>
+		  Please sumbit <a href="https://elearn.ut.ac.ir/" target="_blank">here</a>
+		</td>
+	  </tr>
+	  <tr class="blue">
+		<td>Hands-On #2</td>
+		<td><b> Deep Metric Learning</b></td>
+		<td>
+		</td>
+		<td>
+
+		</td>
+	  </tr>
+	  <tr class="yellow">
+		<td>Homework #4 Due</td>
+		<td> Deadline : Not Determined </td>
+		<td>
+		</td>
+		<td>
+		  Please sumbit <a href="https://elearn.ut.ac.ir/" target="_blank">here</a>
+		</td>
+		
+	  <tr class="red">
+		<td>Midterm</td>
+		<td>Not Determined</td>
+		<td><b>Take-home midterm</b></td>
+		<td></td>
+	  </tr>
+	  </tr>
+		<td>Topic 3</td>
+		<td>
+		  <b>Layer-wise Analysis and Design</b> <br>
+			Geometrical and Statistical Data Complexity measures <br>
+			Some related works in local Layer-wise learning<br>  
+			Clustering method<br>
+			Mutual Information method<br>
+			Heb-based method<br>
+			Gradient-Isolated Learning method<br>
+			Analysis and Design by Separation and Smoothness indices<br>
+			Model evaluation and ranking<br>
+			Model Compressing and Fusion<br>
+			Forward learning and design<br>
+			Model Confidence and Guarantee<br>
+		</td>
+		<td>
+		</td>
+		<td>
+
+		</td>
+	  </tr>
+	  <tr class="yellow">
+		<td>Homework #5 Due</td>
+		<td> Deadline : N/A  </td>
+		<td>
+		</td>
+		<td>
+		  Please sumbit <a href="https://elearn.ut.ac.ir/" target="_blank">here</a>
+		</td>
+	  </tr>
+	  <tr class="blue">
+		<td>Hands-On #3</td>
+		<td><b> Layer-wise Analysis and Design</b></td>
+		<td>
+		</td>
+		<td>
+
+		</td>
+	  </tr>
+	   
+	  <tr class="red">
+		<td>Final Exam</td>
+		<td>Saturday <br> January  23</td>
+		<td><b>Take-home Final Exam</b></td>
+		<td></td>
+	  </tr>
+	  <tr class="yellow">
+		<td><b>Final Project Due</b></td>
+		<td>Not Determined</td>
+		<td>Project due</td>
+		<td>
+		</td>
+	  </tr>
+
+
+	</tbody></table>
+</div>
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+
+
+    <div class="footer-col-2 column">
+
+    </div>
+
+    <div class="footer-col-3 column">
+
+    </div>
+
+  </div>
+
+</footer>
+<!-- <!-- 	<!-- jQuery and Boostrap -->
+	<!-- <script src="../University of Tehran - DNN/jquery.min.js.download"></script> -->
+	<!-- <script src="../University of Tehran - DNN/bootstrap.min.js.download"></script> -->
+
+
+	<!-- <!-- JavaScript Libraries -->
+	<!-- <script src="../lib/jquery/jquery.min.js"></script> -->
+	<!-- <script src="../lib/jquery/jquery-migrate.min.js"></script> -->
+	<!-- <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+	<!-- <script src="../lib/easing/easing.min.js"></script> -->
+	<!-- <script src="../lib/superfish/hoverIntent.js"></script> -->
+	<!-- <script src="../lib/superfish/superfish.min.js"></script> -->
+	<!-- <script src="../lib/wow/wow.min.js"></script> -->
+	<!-- <script src="../lib/waypoints/waypoints.min.js"></script> -->
+	<!-- <script src="../lib/counterup/counterup.min.js"></script> -->
+	<!-- <script src="../lib/owlcarousel/owl.carousel.min.js"></script> -->
+	<!-- <script src="../lib/isotope/isotope.pkgd.min.js"></script> -->
+	<!-- <script src="../lib/lightbox/js/lightbox.min.js"></script> -->
+	<!-- <script src="../lib/touchSwipe/jquery.touchSwipe.min.js"></script> -->
+	<!-- <!-- Contact Form JavaScript File --> 
+	<!-- <script src="../contactform/contactform.js"></script> -->
+
+	<!-- <!-- Template Main Javascript File --> 
+	<!-- <script src="../js/main.js"></script> -->
+
+</body></html>

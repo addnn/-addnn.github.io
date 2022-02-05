@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+
+tr.blue td{
+  background-color: #d9edf6;
+}
+tr.yellow td{
+  background-color: #fdf8e4;
+}
+tr.red td{
+  background-color: #f2dedf;
+}
+tr.gray td{
+  background-color: #DBDADA;
+}
+.container > .row > .table tr.active th
+.container > .row > .table tr.active td
+
+body {
+  margin: 2rem;
+}
+br {
+  content: "";
+  margin: 1em;
+  display: block;
+  font-size: 24%;
+}
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
